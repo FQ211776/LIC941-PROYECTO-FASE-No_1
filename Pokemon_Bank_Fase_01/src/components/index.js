@@ -4,6 +4,16 @@ import Stats from "./Stats";
 import Beneficios from "./Beneficios";
 import Pagos from "./Pagos";
 import Planifica from "./Planifica";
-import Testimonials from "./Testimonials";
+import Opiniones from "./Opiniones";
+import CTA from "./CTA";
 
-export { Navbar, Hero, Stats, Beneficios, Pagos, Planifica, Testimonials };
+export {
+  Navbar,
+  Hero,
+  Stats,
+  Beneficios,
+  Pagos,
+  Planifica,
+  Opiniones,
+  CTA,
+};
