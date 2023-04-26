@@ -2,7 +2,7 @@ import { feedback } from "../constants";
 import styles from "../style";
 import FeedbackCard from "./FeedbackCard";
 
-const Testimonials = () => (
+const Opiniones = () => (
   <section
     id="clients"
     className={`${styles.paddingY} ${styles.flexCenter} flex-col relative `}
@@ -16,7 +16,8 @@ const Testimonials = () => (
       <div className="w-full md:mt-0 mt-6">
         <p className={`${styles.paragraph} text-left max-w-[450px]`}>
           98% DE CLIENTES SATISFECHOS EN TODA LATAM*
-          <br className="sm:block hidden" /> *Certificado por price white house cooper en una muestra de más de 50 000 respuestas a nivel mundial
+          <br className="sm:block hidden" /> *Certificado por price white house
+          cooper en una muestra de más de 50 000 respuestas a nivel mundial
         </p>
       </div>
     </div>
@@ -29,4 +30,4 @@ const Testimonials = () => (
   </section>
 );
 
-export default Testimonials;
+export default Opiniones;
