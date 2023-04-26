@@ -10,4 +10,21 @@ import send from "./Send.svg";
 import shield from "./Shield.svg";
 import star from "./Star.svg";
 // #
-export { logo, menu, close, robot, discount, arrowUp, send, shield, star };
+import google from "./google.svg";
+import apple from "./apple.svg";
+import pagos from "./pagos.png";
+//
+export {
+  logo,
+  menu,
+  close,
+  robot,
+  discount,
+  arrowUp,
+  send,
+  shield,
+  star,
+  google,
+  apple,
+  pagos,
+};
