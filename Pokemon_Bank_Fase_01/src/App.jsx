@@ -8,6 +8,7 @@ import {
   Planifica,
   Opiniones,
   CTA,
+  Footer,
 } from "./components";
 
 const App = () => (
@@ -32,6 +33,7 @@ const App = () => (
         <Planifica />
         <Opiniones />
         <CTA />
+        <Footer />
       </div>
     </div>
   </div>

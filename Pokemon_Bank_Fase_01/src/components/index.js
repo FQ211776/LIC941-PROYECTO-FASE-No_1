@@ -6,6 +6,7 @@ import Pagos from "./Pagos";
 import Planifica from "./Planifica";
 import Opiniones from "./Opiniones";
 import CTA from "./CTA";
+import Footer from "./Footer";
 
 export {
   Navbar,
@@ -16,4 +17,5 @@ export {
   Planifica,
   Opiniones,
   CTA,
+  Footer,
 };
