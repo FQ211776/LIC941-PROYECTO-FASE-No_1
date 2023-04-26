@@ -14,6 +14,8 @@ import google from "./google.svg";
 import apple from "./apple.svg";
 import pagos from "./pagos.png";
 //
+import card from "./card.png";
+//
 export {
   logo,
   menu,
@@ -27,4 +29,5 @@ export {
   google,
   apple,
   pagos,
+  card,
 };
