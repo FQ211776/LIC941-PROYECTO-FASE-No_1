@@ -6,4 +6,8 @@ import robot from "./robot.png";
 import discount from "./Discount.svg";
 import arrowUp from "./arrow-up.svg";
 //
-export { logo, menu, close, robot, discount, arrowUp };
+import send from "./Send.svg";
+import shield from "./Shield.svg";
+import star from "./Star.svg";
+// #
+export { logo, menu, close, robot, discount, arrowUp, send, shield, star };
