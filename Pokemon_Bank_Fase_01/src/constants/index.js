@@ -1,4 +1,15 @@
-import { send, shield, star, people01, people02, people03 } from "../assets";
+import {
+  send,
+  shield,
+  star,
+  people01,
+  people02,
+  people03,
+  facebook,
+  instagram,
+  linkedin,
+  twitter,
+} from "../assets";
 
 export const navLinks = [
   {
@@ -81,9 +92,98 @@ export const feedback = [
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
+      "Lo aprendido en la UDB virtual sento las bases para desarrollar la primera StartUp Salvadoreña en triunfar a nivel global",
     name: "Roberto Flores",
     title: "Fundador y CEO",
     img: people03,
+  },
+];
+
+export const footerLinks = [
+  {
+    title: "EMPRESA",
+    links: [
+      {
+        name: "Blog",
+        link: "https://www.udbvirtual.edu.sv/auladigital/",
+      },
+      {
+        name: "Quienes Somos",
+        link: "https://www.udbvirtual.edu.sv/auladigital/",
+      },
+      {
+        name: "Empleo",
+        link: "https://www.udbvirtual.edu.sv/auladigital/",
+      },
+      {
+        name: "Prensa",
+        link: "https://www.udbvirtual.edu.sv/auladigital/",
+      },
+      {
+        name: "Ayuda",
+        link: "https://www.udbvirtual.edu.sv/auladigital/",
+      },
+    ],
+  },
+  {
+    title: "BENEFICIOS",
+    links: [
+      {
+        name: "Cuentas corrientes",
+        link: "https://www.udbvirtual.edu.sv/auladigital/",
+      },
+      {
+        name: "Gestiona tu dinero facilmente",
+        link: "https://www.udbvirtual.edu.sv/auladigital/",
+      },
+      {
+        name: "Controla tus subscripciones",
+        link: "https://www.udbvirtual.edu.sv/auladigital/",
+      },
+      {
+        name: "Protege tu seguridad",
+        link: "https://www.udbvirtual.edu.sv/auladigital/",
+      },
+      {
+        name: "Newsletters",
+        link: "https://www.udbvirtual.edu.sv/auladigital/",
+      },
+    ],
+  },
+  {
+    title: "RECOMPENSAS",
+    links: [
+      {
+        name: "Cashback",
+        link: "https://www.udbvirtual.edu.sv/auladigital/",
+      },
+      {
+        name: "VIP Membership",
+        link: "https://www.udbvirtual.edu.sv/auladigital/",
+      },
+    ],
+  },
+];
+
+export const socialMedia = [
+  {
+    id: "social-media-1",
+    icon: instagram,
+    link: "https://www.instagram.com/",
+  },
+  {
+    id: "social-media-2",
+    icon: facebook,
+    link: "https://www.facebook.com/",
+  },
+  {
+    id: "social-media-3",
+    icon: twitter,
+    link: "https://www.twitter.com/",
+  },
+  {
+    id: "social-media-4",
+    icon: linkedin,
+    link: "https://www.linkedin.com/",
   },
 ];
