@@ -8,19 +8,19 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="w-full flex py-3 justify-between items-center navbar">
+    <nav className="w-full flex py-3 justify-between items-center  navbar">
       {/* <img src={logo} alt="Pokemon Bank" className="w-[274px] h-[132px] */}
       <img
         src={logo}
         alt="Pokemon Bank"
-        className="w-[275px] h-[175px]
+        className="w-[275px] hover:scale-125 transition duration-500 cursor-pointer h-[175px]
       "
       />
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-poppins font-normal cursor-pointer text-[16px] ${
+            className={`font-poppins font-normal hover:text-secondary cursor-pointer text-[16px] ${
               active === nav.title ? "text-white" : "text-dimWhite"
             } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
             onClick={() => setActive(nav.title)}
@@ -47,7 +47,7 @@ const Navbar = () => {
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
-                className={`font-poppins font-medium cursor-pointer text-[16px] ${
+                className={`font-poppins font-medium hover:text-secondary cursor-pointer text-[16px] ${
                   active === nav.title ? "text-white" : "text-dimWhite"
                 } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
                 onClick={() => setActive(nav.title)}
